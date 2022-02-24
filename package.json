@@ -1,0 +1,21 @@
+{
+  "name": "solid-dawichi",
+  "version": "0.0.1",
+  "license": "GPL-3.0",
+  "description": "first contact with solidjs",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+	"prettier:w": "npx prettier --write **/*.{js,jsx,ts,tsx,json} && npx prettier --write *.{js,jsx,ts,tsx,json}"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5",
+    "vite": "^2.8.0",
+    "vite-plugin-solid": "^2.2.5"
+  },
+  "dependencies": {
+    "solid-js": "^1.3.7"
+  }
+}
